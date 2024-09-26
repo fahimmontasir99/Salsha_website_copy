@@ -1,0 +1,449 @@
+
+.navbar{
+    overflow: hidden;
+}
+
+
+
+
+/* .clockdate-wrapper {
+    background-color: #333;
+    color: #fff;
+    padding:25px;
+    max-width:350px;
+    width:100%;
+    text-align:center;
+    border-radius:5px;
+    margin:0 auto;
+    margin-top:15%;
+}
+#clocks{
+    background-color:#333;
+    font-family: sans-serif;
+    font-size:60px;
+    text-shadow:0px 0px 1px #fff;
+    color:#fff;
+}
+#clocks span {
+    color: white;
+    text-shadow:0px 0px 1px #333;
+    font-size:30px;
+    position:relative;
+    top:-27px;
+    left:-10px;
+}
+#date {
+    letter-spacing:10px;
+    font-size:14px;
+    font-family:arial,sans-serif;
+    color:#fff;
+} */
+
+
+
+  
+  #daten {
+    padding-left:0;
+     padding-bottom:1em;
+    font-weight:900;
+    font-size:1em;  
+    letter-spacing:0.1em;
+    color:pink;
+  }
+  
+  #clock {
+    padding-left:0;
+    font-weight:900;
+    font-size:1em;  
+    color: gray;  
+  }
+
+
+
+
+
+/* #digitalclock{
+    background-color: blueviolet;
+} */
+
+/* #clock&time{
+    font-family: "Work Sans", sans-serif;
+    margin-top: 150px;
+    background: #bbbcbd;
+    margin-left: 70px;
+}
+
+.time {
+    background: rgb(12, 12, 12);
+    color: #fff;
+    text-align: center;
+    width: 500px;
+    border: 7px solid rgb(255, 252, 252);
+    padding: 8px;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.16), 0 2px 10px 0 
+    rgba(0,0,0,0.12);
+}
+
+.hms {
+    font-size: 68pt;
+    font-weight: 200;
+}
+.ampm {
+    font-size: 22pt;
+}
+.date {
+    font-size: 15pt;
+} */
+
+.navbar-brand img{
+    height: 65px;
+    width: 65px;
+    background-color: #fff;
+    opacity: 30%;
+}
+.navbar-collapse{
+    flex-grow: 0
+}
+/* .navbar-dark .navbar-nav .nav-link {
+    color: black;
+} */
+
+/* .custom_bgimg{
+    background-image: url("../images/download.jpeg");
+    max-width: 100%;
+    min-height: 800Px;
+    background-size: cover;
+    text-align: center;
+}
+.custom_bgimg img{
+    padding-top: 10rem;
+} */
+
+.custom_bgvideo{
+    
+    width: 100%;
+    height: 86vh;
+    /* background-color: rgba(0,0,0,0.4); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 1rem; */
+}
+
+#myvideo{
+    top: 1;
+    bottom: 0;
+}
+
+/* .custom_bgvideo video source{
+    margin-top: 4rem !important;
+} */
+
+.content{
+    text-align: center;
+}
+.content h1{
+    /* font-size: 80px; */
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 6.6666666666667rem;
+    font-weight: 900;
+    font-family: 'Abril Fatface', display;
+    transition: 0.5s;
+}
+.content h1:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+.content h2{
+    /* font-size: 55px; */
+    color: red;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Abril Fatface', display;
+}
+.content p{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 3rem;
+}
+.custom_btn1{
+    font-size: 23px;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid red;
+    padding: 10px 25px;
+    border-radius: 50px;
+    background-color: red;
+    margin-right: 1rem;
+}
+.custom_btn2{
+    font-size: 23px;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid red;
+    padding: 10px 25px;
+    border-radius: 50px;
+}
+
+.custom_btn1:hover{
+    background-color: orange;
+    border: 2px solid orange;
+    color: #fff;
+}
+.custom_btn2:hover{
+    background-color: red;
+    color: #fff;
+}
+
+.background-clip{
+    position: absolute;
+    /* right: 0;
+    top: -5;
+    bottom: -1;
+    margin-top: -5rem; */
+    z-index: -1;
+}
+
+.nav-link{
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s all;
+    display: block;
+}
+.nav-link:hover{
+    font-weight: bold;
+    color: red !important;
+    text-decoration: underline 5px;
+}
+.custom_btn{
+    background-color: red;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 7px 10px;
+}
+.custom_friedrice img{
+    width: 350px;
+    height: auto;
+}
+
+#about{
+    margin-top: 3rem;
+}
+
+.custom_about{
+    text-align: center;
+}
+.custom_about h1{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Abril Fatface', display;
+}
+.custom_about img{
+   padding-top: 1.5rem;
+   padding-bottom: 1.5rem;
+}
+.custom_bbbq{
+    width: 50px;
+    height: 100px;
+    margin-top: 4rem;
+}
+.custom_about h4{
+    padding-bottom: 2rem;
+}
+.custom_about p{
+    padding-bottom: 2rem;
+}
+#menu h1{
+    text-align: center;
+}
+#menu img{
+    width: 150px;
+    height: 150px;
+}
+#menu{
+    margin-top: 15rem;
+}
+#menu h1{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Abril Fatface', display;
+    margin-bottom: 2rem;
+}
+
+
+.custom_ulmenu{
+    margin: 0 0 1em;
+    padding: 0;
+    list-style: none outside;
+    clear: both;
+    zoom: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.custom_ulmenu li{
+    width: 22.5%;
+    text-align: left;
+    margin-bottom: 2.5em;
+    float: left;
+    margin: 0 20px 2.992em 0;
+    padding: 0;
+    position: relative;
+}
+
+.custom_h2menu{
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.5;
+    font-family: Lato;
+    border: 1px dashed #ccc;
+    bottom: 1.8em;
+    font-size: .9em;
+    position: absolute;
+    background-color: rgba(255, 255, 255, .88);
+    transition: background .3s;
+    text-align: center;
+    left: 0.4em;
+    right: 1em;
+    padding: .5em 0 .7em;
+    margin-bottom: -1.5rem;
+    width: 55%;
+    color: black;
+}
+.custom_h2menu mark{
+    font-size: 10px;
+    color: rgb(77, 74, 74);
+}
+
+#review{
+    text-align: center;
+    margin-top: 15rem;
+}
+#review img{
+    margin: 1.5rem 0 1.5rem 0;
+}
+#review h1{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Abril Fatface', display;
+}
+#review pre{
+    font-weight: 500;
+    font-size: 100%;
+    color: rgb(77, 74, 74);
+}
+
+.boxes{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    margin: 5rem 0 0 0;
+    padding: 0;
+
+}
+.box{
+    width: 16.66%;
+    
+    padding: 0;
+    margin: 0 0 4rem 0;
+}
+.box img{
+    height: auto;
+    width: 118px;
+    margin: 0 56px 3rem 0;
+    padding: 0;
+    filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
+    transition-duration: 0.3s;
+}
+
+.box img:hover{
+    filter: none;
+    transition-duration: 0.3s;
+}
+
+
+.custom_footerimg{
+    background-image: url("../images/Screenshot-2023-07-31-at-2.13.56-PM.png");
+    max-width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+
+.custon_endfooter{
+    background-color: rgb(0, 0, 0);
+    padding: 2rem 0 1.5rem 0;
+}
+.custon_endfooter p{
+    color: #fff;
+    font-weight: bold;
+    display: inline;
+    padding-left: 1rem;
+}
+.custom_footerp{
+    float: right;
+    display: inline;
+    padding-right: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query start */
+
+@media (min-aspect-ratio:16/9) {
+    .background-clip{
+        width: 100%;
+        height: auto;
+        margin-top: 12rem;
+    }
+}
+
+@media (max-aspect-ratio:16/9) {
+    .background-clip{
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+@media print {
+    footer {page-break-after: always;}
+  }
